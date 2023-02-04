@@ -18,7 +18,7 @@ Zoom sessions will be recorded and shared after each class. Please email/WhatsAp
 
 There is an introductory session followed by a series of sessions for more in-depth discussion of public health surveillance. We will start with traditional surveillance methods followed by additional surveillance strategies. The following schedule may be revised depending on availability of instructors and modifications to improve learning/provide additional practice. If there are updates to the schedule, they will be announced and sent via email. 
 
-* [Introduction to Modeling for Public Health](Slides/ModelingPHResearch_Student.pdf {[paper1](References/MathMod_Explained_Bjørnstad.pdf)} {[paper2](References/Statistics_Explained_Kirkwood.pdf)}
+* [Introduction to Modeling for Public Health](Slides/ModelingPHResearch_Student.pdf) {[paper1](References/MathMod_Explained_Bjørnstad.pdf)} {[paper2](References/Statistics_Explained_Kirkwood.pdf)}
 * [Mathematical Models Overview & History](Slides/W1OverviewHistory.pdf) {[paper1](References/Leek&Peng.pdf)} {[paper2](References/viru-4-295.pdf)}
 * [Epidemic Growth](Slides/W1EpidemicParameters.pdf)
 * [SIR Models](Slides/W1SIRModelsStudent.pdf)
