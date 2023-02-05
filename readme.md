@@ -3,11 +3,9 @@
 
 ## Instructors
 - Rachel Sippy<sup>1</sup>, PhD, MPH (rachel.sippy@gmail.com)
-- Henrik Salje<sup>2</sup>, PhD 
+- Henrik Salje<sup>1</sup>, PhD 
 
-<sup>1</sup> Division of Statistics, University of St Andrews, St Andrews UK
-
-<sup>2</sup> Department of Genetics, University of Cambridge, Cambridge UK
+<sup>1</sup> Department of Genetics, University of Cambridge, Cambridge UK
 
 ## About the Course
 This course provides a broad overview of modeling for public health purposes and a more intensive focus on mathematical/mechanistic modeling. We will define modeling and important modeling-related terms, learn about the major categories of modeling, discuss modeling goals, and practice interpreting the models we see in public health-related scientific papers. During the sessions focusing on mathematical models, we will mix lectures with practical sessions (using R). During the sessions, we will review examples of literature using these types of models, learn what parts of an epidemic we can model, examine modeling structures and how to adapt them to different epidemic scenarios, learn the advantages of using serological data, practice building a model, and discuss methods to evaluate model quality. The course will introduce R and demonstrate building/running models in R. 
@@ -32,22 +30,26 @@ There is an introductory session followed by a series of sessions for more in-de
 * [Guest Lecture: COVID-19 in Bangladesh](Slides/COVID-19Situational_Analysis.pdf)
 * [Model Assessment](Slides/W3ModelAssessment.pdf)
 
-We expect that participants will have some experience in statistical programming. We will start with a slow introduction to R, and build useful skills for exploration and analysis of public health surveillance data. This will include two assignments for self-guided practice with R. Topics will include:
+We expect that participants will have some experience in statistical programming. We will start with an introduction to R, and build useful skills for building the models discussion in workshop sessions. Topics will include:
 
-* Introduction to R {[code](R_Sessions/Code/practice_day1.R)}
-* Basic Commands in R {[code_1](R_Sessions/Code/practice.R)} {[code_2](R_Sessions/Code/practice_day2.R)}
-* Data Preparation (self-guided {[pdf](R_Sessions/worksheet1.pdf)} {[html](R_Sessions/worksheet1.html)} {[solutions](R_Sessions/worksheet1_sol.html)})
-* Exploratory Analysis (self-guided {[pdf](R_Sessions/worksheet2.pdf)} {[html](R_Sessions/worksheet2.html)} {[solutions](R_Sessions/worksheet2_sol.html)})
-* Tidyverse {[code](R_Sessions/Code/tidyverse.R)}
-* Visualization & Plotting with ggplot2 {[code](R_Sessions/Code/plots.R)}
-* Mapping {[code](R_Sessions/Code/mapping.R)}
-* Time Series & Forecasting {[code](R_Sessions/Code/forecasting.R)}
+* Introduction to R {[slides](R_Sessions/Rsession_Day2_3.pdf)} {[code](R_Sessions/Code/practice_day1.R)}
+* Basic Commands in R {[code](R_Sessions/Code/practice_day2.R)}
+* Closed SIR Models in R {[code](R_Sessions/Code/practice_day3.R)} 
+* Estimating Parameters & Open SIR Models Analysis {[code](R_Sessions/Code/week2_day1.R)}
+* Closed SEIR & Open SEIR {[code](R_Sessions/Code/week2_day2.R)}
+* Adding Interventions {[slides](R_Sessions/SVEIRModelDiagram.pdf} {[code](R_Sessions/Code/week2_day3.R)}
+* Adding Stochasticity I {[code](R_Sessions/Code/Bangladesh_DelayDistributionTutorial.R)}
+* Adding Stochasticity II {[code](R_Sessions/Code/week3_day1.R)}
+* Fitting Curves {[code](R_Sessions/Code/week3_day2.R)}
+* Tidyverse Introduction {[slides](R_Sessions/Tutorial.pdf)}
+* COVID-19 Model {[code](R_Sessions/Code/class_covid_model.R)}
+* Time Series Plots {[code](R_Sessions/Code/1.0_timeseries_using_public_data_teaching.R)}
 
 ## Pre-course preparation
 - Install or update **R program** (R version 3.5.2) and **RStudio** (1.2.5033). A brief guide to installing R, RStudio, and packages can be found [here](R_Sessions/Installation_guide_R.pdf).
 - Install the necessary R packages:
-   - colorist, RColorBrewer, haven, xlsx, tidyverse, reshape2, ggplot2, datasets, sf, maps, data.table, viridis, scales, forecast, slider, feasts
-   - *install.packages(c("colorist", "RColorBrewer", "haven", "xlsx", "tidyverse", "reshape2", "ggplot2", "datasets", "sf", "maps", "data.table", "viridis", "scales", "forecast", "slider", "feasts"))*
+   - deSolve, colorist, RColorBrewer, haven, tidyverse, coronavirus, zoo, ggthemes, lubridate
+   - *install.packages(c("deSolve", "colorist", "RColorBrewer", "haven" "tidyverse", "coronavirus", "zoo", "ggthemes", "lubridate"))*
 - Download the course material
    - [Datasets](R_Sessions/Data)
    - [R code](R_Sessions/Code)
