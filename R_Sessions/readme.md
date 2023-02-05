@@ -1,19 +1,25 @@
 # R Lessons
 
-The datasets used can be found [here](Data/). There are some slides related to these topics; these can be found in the slides for the main sessions [here](../Slides/). The code for each session is as follows:
+The datasets used can be found [here](Data/). The code for each session is as follows:
 
-* Introduction to R {[code](Code/practice_day1.R)} 
-* Basic Commands in R {[code_1](Code/practice.R)} {[code_2](Code/practice_day2.R)}
-* Data Preparation (self-guided {[pdf](worksheet1.pdf)} {[html](worksheet1.html)} {[solutions](worksheet1_sol.html)})
-* Exploratory Analysis (self-guided {[pdf](worksheet2.pdf)} {[html](worksheet2.html)} {[solutions](worksheet2_sol.html)}) 
-* Tidyverse {[code](Code/tidyverse.R)}
-* Visualization & Plotting with ggplot2 {[code](Code/plots.R)}
-* Mapping {[code](Code/mapping.R)}
-* Time Series & Forecasting {[code](Code/forecasting.R)}
+* Introduction to R {[slides](R_Sessions/Rsession_Day2_3.pdf)} {[code](R_Sessions/Code/practice_day1.R)}
+* Basic Commands in R {[code](R_Sessions/Code/practice_day2.R)}
+* Closed SIR Models in R {[code](R_Sessions/Code/practice_day3.R)} 
+* Estimating Parameters & Open SIR Models Analysis {[code](R_Sessions/Code/week2_day1.R)}
+* Closed SEIR & Open SEIR {[code](R_Sessions/Code/week2_day2.R)}
+* Adding Interventions {[slides](R_Sessions/SVEIRModelDiagram.pdf} {[code](R_Sessions/Code/week2_day3.R)}
+* Adding Stochasticity I {[code](R_Sessions/Code/Bangladesh_DelayDistributionTutorial.R)}
+* Adding Stochasticity II {[code](R_Sessions/Code/week3_day1.R)}
+* Fitting Curves {[code](R_Sessions/Code/week3_day2.R)}
+* Tidyverse Introduction {[slides](R_Sessions/Tutorial.pdf)}
+* COVID-19 Model {[code](R_Sessions/Code/class_covid_model.R)}
+* Time Series Plots {[code](R_Sessions/Code/1.0_timeseries_using_public_data_teaching.R)}
 
-You will need to install the following packages:
-- colorist, RColorBrewer, haven, xlsx, tidyverse, reshape2, ggplot2, datasets, sf, maps, data.table, viridis, scales, forecast, surveillance, slider, feasts
-- *install.packages(c("colorist", "RColorBrewer", "haven", "xlsx", "tidyverse", "reshape2", "ggplot2", "datasets", "sf", "maps", "data.table", "viridis", "scales", "forecast", "surveillance", "slider", "feasts"))*
+## Pre-course preparation
+- Install or update **R program** (R version 3.5.2) and **RStudio** (1.2.5033). A brief guide to installing R, RStudio, and packages can be found [here](R_Sessions/Installation_guide_R.pdf).
+- Install the necessary R packages:
+   - deSolve, colorist, RColorBrewer, haven, tidyverse, coronavirus, zoo, ggthemes, lubridate
+   - *install.packages(c("deSolve", "colorist", "RColorBrewer", "haven" "tidyverse", "coronavirus", "zoo", "ggthemes", "lubridate"))*
 
 # R References
 
