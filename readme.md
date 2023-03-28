@@ -37,7 +37,7 @@ We expect that participants will have some experience in statistical programming
 * Closed SIR Models in R {[code](R_Sessions/Code/practice_day3.R)} 
 * Estimating Parameters & Open SIR Models Analysis {[code](R_Sessions/Code/week2_day1.R)}
 * Closed SEIR & Open SEIR {[code](R_Sessions/Code/week2_day2.R)}
-* Adding Interventions {[slides](R_Sessions/SVEIRModelDiagram.pdf} {[code](R_Sessions/Code/week2_day3.R)}
+* Adding Interventions {[slides](R_Sessions/SVEIRModelDiagram.pdf)} {[code](R_Sessions/Code/week2_day3.R)}
 * Adding Stochasticity I {[code](R_Sessions/Code/Bangladesh_DelayDistributionTutorial.R)}
 * Adding Stochasticity II {[code](R_Sessions/Code/week3_day1.R)}
 * Fitting Curves {[code](R_Sessions/Code/week3_day2.R)}
